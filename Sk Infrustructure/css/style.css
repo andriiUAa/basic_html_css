@@ -1,0 +1,265 @@
+.background-font {
+  background: rgb(23, 23, 23);
+  width: 1920px;
+  margin: 0 auto;
+  padding-bottom: 238px;
+}
+.main-conteiner {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 128px;
+  padding: 46px 230px 0 230px;
+}
+
+.phone {
+  box-sizing: border-box;
+  border: 1px solid rgb(228, 181, 100);
+  padding: 10px 10px 10px 25px;
+}
+
+.phone span {
+  margin-left: 7px;
+  color: rgb(228, 181, 100);
+}
+
+.phone a {
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 0 230px;
+}
+
+.first-tittle {
+  margin-bottom: 41px;
+}
+
+.first-tittle,
+.second-tittle {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.subtittle {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 41px;
+  width: 1182px;
+}
+
+.first-grid-container {
+  display: grid;
+  grid-template-columns: 467px 212px 255px 467px;
+  grid-template-rows: repeat(2, 468px);
+  gap: 25px;
+  margin-bottom: 161px;
+}
+
+.first-grid-item-1,
+.first-grid-item-2,
+.first-grid-item-3,
+.first-grid-item-4,
+.first-grid-item-5 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.first-grid-item-1 {
+  background: rgb(99, 79, 44);
+}
+
+.first-grid-item-2 {
+  background: rgb(180, 163, 133);
+  grid-column: 2 / 4;
+  text-align: center;
+}
+
+.first-grid-item-3 {
+  background: rgb(228, 181, 100);
+}
+
+.first-grid-item-4 {
+  background: rgb(99, 90, 74);
+  grid-column: -5 / -3;
+}
+
+.first-grid-item-5 {
+  background: rgb(176, 140, 77);
+  grid-column: -3 / -1;
+}
+
+.second-tittle {
+  margin-bottom: 94px;
+}
+
+.second-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 467px);
+  grid-template-rows: 255px 32px 101px 122px 277px;
+  gap: 24px 30px;
+  padding-bottom: 191px;
+}
+
+.second-grid-item-3,
+.second-grid-item-4,
+.second-grid-item-7 {
+  color: rgb(255, 255, 255);
+  padding: 44px 0 0 48px;
+}
+
+.second-grid-item-1,
+.second-grid-item-2,
+.second-grid-item-5 {
+  color: rgb(255, 255, 255);
+  padding: 52px 0 0 44px;
+}
+
+.second-grid-item-1,
+.second-grid-item-2,
+.second-grid-item-7 {
+  font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+}
+
+.second-grid-item-3,
+.second-grid-item-4,
+.second-grid-item-5,
+.second-grid-item-6 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.second-grid-item-6{
+  color: black;
+  padding: 47px 0 0 52px;
+}
+
+.second-grid-item-1,
+.second-grid-item-6 {
+  grid-row: span 2;
+}
+
+.second-grid-item-1 {
+  background-color: rgb(14, 14, 14);
+}
+
+.second-grid-item-2,
+.second-grid-item-4,
+.second-grid-item-5 {
+  grid-row: span 3;
+}
+
+.second-grid-item-2 {
+  background-color: rgb(36, 36, 36);
+}
+
+.second-grid-item-3 {
+  background: rgb(31, 31, 31);
+}
+
+.second-grid-item-4 {
+  background: rgb(14, 14, 14);
+}
+
+.second-grid-item-5 {
+  background: rgb(31, 31, 31);
+}
+
+.second-grid-item-6 {
+  background: rgb(228, 181, 100);
+}
+
+.second-grid-item-7 {
+  background: rgb(10, 9, 9);
+}
+
+.footer {
+  height: 1054px;
+  background: rgb(14, 14, 14);
+  padding: 0 230px;
+}
+
+.thirst-tittle {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+  padding-top: 160px;
+}
+
+.btn-footer {
+  text-decoration: none;
+  color: rgb(228, 181, 100);
+  border: 1px solid rgb(228, 181, 100);
+  padding: 10px 29px 10px 40px;
+}
+
+.gallery-company {
+  display: grid;
+  grid-template-columns: repeat(3, 487px);
+  grid-template-rows: repeat(2, 391px);
+}
+
+.gallery-company-item-1,
+.gallery-company-item-3,
+.gallery-company-item-4,
+.gallery-company-item-5,
+.gallery-company-item-6 {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.gallery-company-item-1 {
+  background: rgb(99, 79, 44);
+}
+
+.gallery-company-item-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(232, 210, 171, 0.76);
+}
+
+.gallery-company-item-2 p{
+  font-size: 22px;
+font-weight: 400;
+line-height: 28px;
+color: white;
+text-align: center;
+}
+
+.gallery-company-item-3 {
+  background: rgb(228, 181, 100);
+}
+
+.gallery-company-item-4 {
+  background: rgb(99, 90, 74);
+}
+
+.gallery-company-item-5 {
+  background: rgb(176, 140, 77);
+}
+
+.gallery-company-item-6 {
+  background: rgb(99, 79, 44);
+}

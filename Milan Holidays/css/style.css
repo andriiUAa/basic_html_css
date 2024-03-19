@@ -1,0 +1,98 @@
+.background {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  width: 1366px;
+  height: 768px;
+  margin: 10% auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 61px;
+  padding: 46px 177px 17px 161px;
+}
+
+.logo a {
+  display: flex;
+}
+
+.text-logo span:hover {
+  color: orange;
+}
+
+.text-logo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6px;
+  padding-left: 8px;
+}
+
+.milan,
+.holidays {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.milan {
+  font-size: 29px;
+  line-height: 29px;
+}
+
+.holidays {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 19px;
+}
+
+.phone a:hover {
+  color: orange;
+}
+.emeil,
+.tel {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.galery-conteiner {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 220px);
+  gap: 58px 78px;
+  text-align: center;
+  justify-items: center;
+  box-sizing: border-box;
+  margin-bottom: 48px;
+}
+
+.galery-conteiner-subtittle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+}
+
+.copirate{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 15px;
+}
