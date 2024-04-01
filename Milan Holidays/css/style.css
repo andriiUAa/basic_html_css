@@ -106,23 +106,41 @@ a {
   color: orange;
 }
 
+.galery-item:hover .promo{
+  transition-duration: 0.5s;
+  margin-bottom: 55px;
+}
+
 .photo {
   margin-bottom: 20px;
-  
+  overflow: hidden;
+    position: relative;
 }
 
 .promo{
-width: 295px;
+width: 300px;
 height: 55px;
 background: rgb(242, 101, 34);
 position: absolute;
-left: 0;
-bottom: 0;
+left: 2px;
+bottom: -55px;
 }
+
+
 .subtittle {
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
   color: rgb(255, 255, 255);
   margin-bottom: 37px;
+}
+
+.footer-copyright{
+  font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+color: rgb(255, 255, 255);
+display: block;
+text-align: center;
+margin-top: 12px;
 }
