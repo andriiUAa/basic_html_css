@@ -1,0 +1,425 @@
+.first-main-background {
+    width: 1192px;
+    height: 736px;
+    background: rgb(58, 73, 101);
+    margin: 50px auto;
+    padding-top: 20px;
+}
+
+.first-table {
+    margin: auto;
+}
+
+.first-table td {
+    vertical-align: middle;
+    text-align: center;
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgb(72, 72, 72);
+}
+
+.first-table th {
+    vertical-align: middle;
+    text-align: center;
+    font-family: Arimo;
+    text-transform: uppercase;
+}
+
+.first-col-size-one {
+    width: 313px;
+    height: 72px;
+}
+
+.first-col-size-two {
+    width: 280px;
+    height: 72px;
+}
+
+.first-col-head-two {
+    height: 89px;
+}
+
+.first-color-white {
+    background: rgb(250, 250, 250);
+
+}
+
+.first-color-grey {
+    background: rgb(242, 242, 242);
+}
+
+.first-color-darkgrey {
+    background: rgb(227, 227, 227);
+}
+
+.first-choose-your {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(72, 72, 72);
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.first-pricing-plan {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(72, 72, 72);
+}
+
+.first-standard,
+.first-ultimate,
+.first-premium {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.first-standard {
+    background: rgb(137, 195, 49);
+}
+
+.first-ultimate {
+    background: rgb(240, 74, 86);
+}
+
+.first-premium {
+    background: rgb(32, 128, 124);
+}
+
+.first-price-one,
+.first-price-two,
+.first-price-thre {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(72, 72, 72);
+    position: relative;
+}
+
+.first-price-one span,
+.first-price-two span,
+.first-price-thre span {
+    position: absolute;
+    left: 0;
+    right: 114px;
+    top: 26px;
+    bottom: 3px;
+}
+
+.first-price-one::after,
+.first-price-two::after,
+.first-price-thre::after {
+    position: absolute;
+    left: 87px;
+    right: 65px;
+    top: 2px;
+    bottom: 39px;
+    content: '.99';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.first-price-one::before,
+.first-price-two::before,
+.first-price-thre::before {
+    position: absolute;
+    left: 105px;
+    right: 0;
+    top: 24px;
+    bottom: 17px;
+    content: 'Per Month';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.first-btn-one {
+    background: rgb(72, 72, 72);
+    cursor: pointer;
+}
+
+.first-btn-one::after {
+    background: rgb(64, 64, 64);
+}
+
+.first-btn-two {
+    background: rgb(137, 195, 49);
+}
+
+.first-btn-two,
+.first-btn-thre,
+.first-btn-four {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 18px 59px;
+}
+
+.first-btn-two::after {
+    background: rgb(121, 176, 39);
+}
+
+.first-btn-thre {
+    background: rgb(240, 74, 86);
+}
+
+.first-btn-thre::after {
+    background: rgb(223, 58, 70);
+}
+
+.first-btn-four {
+    background: rgb(32, 128, 124);
+}
+
+.first-btn-four::after {
+    background: rgb(22, 115, 111);
+}
+
+.first-btn-one,
+.first-btn-two,
+.first-btn-thre,
+.first-btn-four {
+    position: relative;
+    width: 195px;
+    height: 54px;
+    border-radius: 5px;
+    margin: 26px 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.first-btn-one::after,
+.first-btn-two::after,
+.first-btn-thre::after,
+.first-btn-four::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 45px;
+    bottom: 0;
+    height: 9px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.first-border-rith {
+    border-right: 1px solid rgb(221, 221, 221);
+
+}
+
+.first-color-btn-one {
+    background: rgb(221, 221, 221);
+}
+
+.first-color-btn-two {
+    background: rgb(238, 238, 238);
+}
+
+
+
+/* ///////SECOND TABLE///////// */
+
+
+.second-main-background {
+    width: 1197px;
+    height: 660px;
+    background: rgb(58, 73, 101);
+    margin: 50px auto;
+    padding: 28px 28px 20px 29px;
+    box-sizing: border-box;
+}
+
+.second-col-one {
+    width: 201px;
+    height: 100px;
+    background: rgb(250, 250, 250);
+    vertical-align: middle;
+}
+
+.second-col-two {
+    width: 160px;
+    height: 100px;
+
+}
+
+.second-table th {
+    height: 165px;
+}
+
+.second-table {
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(72, 72, 72);
+    text-transform: uppercase;
+}
+
+.second-table::before {
+    line-height: 1em;
+    content: ".";
+    display: block;
+}
+
+.second-thead span {
+    font-family: Arimo;
+    color: rgb(72, 72, 72);
+    text-transform: uppercase;
+}
+
+.second-choose-your {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.second-pricing-plan {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.second-head-text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.second-color-white {
+    background: rgb(250, 250, 250);
+}
+
+.second-color-grey {
+    background: rgb(227, 227, 227);
+}
+
+.storage span {
+    display: block;
+    margin-top: 50px;
+}
+
+.second-table th {
+    vertical-align: middle;
+}
+
+.second-color-green {
+    background: rgb(137, 195, 49);
+}
+
+.second-color-pink {
+    background: rgb(240, 74, 86);
+}
+
+.second-color-mentol {
+    background: rgb(32, 128, 124);
+}
+
+.flex-conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-standard {
+    font-family: Arimo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.second-price {
+    position: relative;
+    font-family: Arimo;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.second-price::before {
+    position: absolute;
+    content: ".99";
+    left: 40px;
+    right: 75px;
+    top: -10px;
+    bottom: 12px;
+    color: rgb(255, 255, 255);
+    font-family: Arimo;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.second-price::after {
+    position: absolute;
+    content: "per Month";
+    left: 55px;
+    right: 8px;
+    top: 0;
+    bottom: 4px;
+    color: rgb(255, 255, 255);
+    font-family: Arimo;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.second-btn {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: rgb(65, 65, 65);
+    cursor: pointer;
+
+}
+
+.second-btn::after {
+    background: rgb(52, 52, 52);
+}
+
+
+.second-btn {
+    position: relative;
+    width: 147px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.second-btn::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 35px;
+    bottom: 0;
+    height: 9px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.second-border-under {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
